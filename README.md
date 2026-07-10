@@ -1,74 +1,52 @@
 # 🧠 Dark Store Location Optimization System
 
-> **AI & GIS-based system for optimizing Dark Store locations in Cairo using Spatial Analysis and Genetic Algorithms.**
+> **An AI & GIS-based system for optimizing Dark Store locations in Cairo using Spatial Analysis and Genetic Algorithms.**
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/AI-Optimization-blueviolet?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/GIS-Spatial%20Analysis-success?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)
+![GIS](https://img.shields.io/badge/GIS-Spatial%20Analysis-2E8B57?style=for-the-badge)
+![Genetic Algorithm](https://img.shields.io/badge/Optimization-DEAP-F39C12?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-28A745?style=for-the-badge)
 
 </p>
 
 ---
 
-# 🚀 Built With
+# 🚀 Libraries Used
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/OSMnx-00A86B?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Rasterio-7B3F00?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/PyProj-4B8BBE?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/NetworkX-2C5AA0?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/DEAP-FF6F00?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/OpenPyXL-217346?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Folium-77B829?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Streamlit--Folium-FF4B4B?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
-
-</p>
+| Category                  | Libraries                          |
+| ------------------------- | ---------------------------------- |
+| 🐍 Programming Language   | Python                             |
+| 📊 Data Processing        | Pandas, NumPy                      |
+| 🌍 GIS & Spatial Analysis | GeoPandas, OSMnx, Rasterio, PyProj |
+| 🛣️ Network Analysis      | NetworkX                           |
+| 🤖 Machine Learning       | Scikit-learn                       |
+| 🧬 Optimization           | DEAP (Genetic Algorithm)           |
+| 📈 Scientific Computing   | SciPy                              |
+| 📂 Excel Support          | OpenPyXL                           |
+| 🗺️ Interactive Maps      | Folium, Streamlit-Folium           |
+| 📊 Dashboard              | Streamlit                          |
+| 📉 Visualization          | Plotly                             |
 
 ---
 
 # 📌 Project Overview
 
-The **Dark Store Location Optimization System** is an AI and GIS-powered platform that identifies the most suitable locations for Dark Stores in **Cairo, Egypt**. The system integrates geospatial analysis with Genetic Algorithms to optimize delivery operations and support strategic decision-making for quick-commerce businesses.
+The **Dark Store Location Optimization System** is an AI and GIS-powered platform designed to identify the most suitable locations for Dark Stores in **Cairo, Egypt**.
 
-The optimization process considers several spatial factors, including:
+The system combines **Geographic Information Systems (GIS)**, **Spatial Analysis**, and **Genetic Algorithms** to evaluate candidate locations and recommend the best sites based on multiple spatial and operational factors.
+
+The optimization process considers:
 
 * 📍 Population Density
 * 🛣️ Road Network Accessibility
 * 🚚 Delivery Coverage
 * ⏱️ Travel Time
-* 📊 Spatial Distribution of Demand
+* 📊 Spatial Demand Distribution
 
-The final output is a ranked list of candidate locations with interactive visualizations that help decision-makers select the best sites for new Dark Stores.
+The final result is a ranked list of optimal locations displayed through an interactive dashboard and GIS maps.
 
 ---
 
@@ -88,9 +66,9 @@ The final output is a ranked list of candidate locations with interactive visual
 
 * ✅ Population Density Analysis
 * ✅ Road Network Analysis
-* ✅ Candidate Location Evaluation
 * ✅ Spatial Accessibility Analysis
-* ✅ Delivery Coverage Estimation
+* ✅ Candidate Location Evaluation
+* ✅ Delivery Coverage Analysis
 * ✅ Genetic Algorithm Optimization
 * ✅ Interactive GIS Maps
 * ✅ Dashboard Visualization
@@ -101,36 +79,36 @@ The final output is a ranked list of candidate locations with interactive visual
 
 # 🛠️ Technology Stack
 
-| Category                  | Libraries                          |
-| ------------------------- | ---------------------------------- |
-| 🐍 Programming Language   | Python                             |
-| 📊 Data Processing        | Pandas, NumPy                      |
-| 🌍 GIS & Spatial Analysis | GeoPandas, OSMnx, Rasterio, PyProj |
-| 🛣️ Network Analysis      | NetworkX                           |
-| 🤖 Machine Learning       | Scikit-learn                       |
-| 🧬 Optimization Algorithm | DEAP (Genetic Algorithm)           |
-| 📈 Scientific Computing   | SciPy                              |
-| 🗺️ Interactive Maps      | Folium, Streamlit-Folium           |
-| 📊 Dashboard              | Streamlit                          |
-| 📉 Visualization          | Plotly                             |
-| 📂 Excel Processing       | OpenPyXL                           |
+| Layer                   | Technologies                       |
+| ----------------------- | ---------------------------------- |
+| 🎨 Frontend             | Streamlit                          |
+| ⚙️ Backend              | Python                             |
+| 🌍 GIS Processing       | GeoPandas, OSMnx, Rasterio, PyProj |
+| 📊 Data Processing      | Pandas, NumPy                      |
+| 🛣️ Network Analysis    | NetworkX                           |
+| 🤖 Machine Learning     | Scikit-learn                       |
+| 🧬 Optimization         | DEAP                               |
+| 📈 Scientific Computing | SciPy                              |
+| 🗺️ Maps                | Folium, Streamlit-Folium           |
+| 📉 Visualization        | Plotly                             |
+| 📂 File Handling        | OpenPyXL                           |
 
 ---
 
 # 🏗️ System Architecture
 
-The system follows a modular layered architecture consisting of:
+The project follows a layered architecture composed of:
 
 * 🎨 User Interface Layer
 * 📂 Data Management Layer
-* 🌍 GIS Processing Layer
+* 🌍 GIS Analysis Layer
 * 🛣️ Spatial Analysis Layer
 * 🧬 Optimization Layer
 * 📊 Visualization Layer
 
 ---
 
-# 🚀 Workflow
+# ⚙️ Workflow
 
 ```text
 Input Data
@@ -139,7 +117,10 @@ Input Data
 Data Cleaning & Preprocessing
      │
      ▼
-GIS Spatial Analysis
+GIS Processing
+     │
+     ▼
+Spatial Analysis
      │
      ▼
 Feature Engineering
@@ -162,6 +143,10 @@ Interactive Dashboard & Maps
 Dark-Store-Optimization/
 │
 ├── data/
+│   ├── population/
+│   ├── roads/
+│   ├── competitors/
+│   └── candidate_locations/
 │
 ├── notebooks/
 │
@@ -179,39 +164,40 @@ Dark-Store-Optimization/
 
 ---
 
-# 📈 Output
+# 📊 System Outputs
 
 The system generates:
 
-* 📍 Ranked Dark Store Locations
+* 📍 Ranked Candidate Locations
 * 🗺️ Interactive GIS Maps
-* 📊 Population Coverage Analysis
+* 📊 Population Coverage Reports
 * 🚚 Delivery Accessibility Metrics
-* 📈 Performance Dashboard
+* 📈 Interactive Dashboard
+* 📂 Exportable Results
 
 ---
 
 # 🚧 Project Status
 
-🟢 Completed
+### ✅ Completed
 
 * ✔️ Data Collection
-* ✔️ Data Cleaning
+* ✔️ Data Cleaning & Preprocessing
 * ✔️ GIS Processing
 * ✔️ Spatial Analysis
 * ✔️ Genetic Algorithm Optimization
 * ✔️ Interactive Dashboard
-* ✔️ Data Visualization
+* ✔️ Visualization & Reporting
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Future Enhancements
 
-* 🚦 Real-time Traffic Integration
+* 🚦 Real-Time Traffic Integration
 * ☁️ Cloud Deployment
-* 📡 Live Data Updates
+* 📡 Live Data Synchronization
 * 🤖 Advanced AI Optimization Models
-* 📱 Mobile Dashboard
+* 📱 Mobile-Friendly Dashboard
 
 ---
 
@@ -227,12 +213,10 @@ The system generates:
 
 # 📬 Contact
 
-For questions, collaboration, or feedback, feel free to contact the project team.
+For questions, feedback, or collaboration, feel free to contact the project team.
 
 ---
 
-<p align="center">
+<div align="center">
 
-### ⭐ If you found this project useful, don't forget to give it a Star!
-
-</p>
+</div>
